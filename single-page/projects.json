@@ -1,0 +1,43 @@
+{"1":
+    {
+        "id": 1,
+        "name": "Project 1",
+        "phrase": "This is a sample phrase for project 1.",
+        "title": "Title of Project 1",
+        "url": "https://example.com/project1",
+        "tutorial_link": "https://example.com/project1-tutorial",
+        "type": "Type1",
+        "detail": "Detailed description of project 1.",
+        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
+                   "waltermayor.github.io/single-page/projects/1/image2.png", 
+                   "waltermayor.github.io/single-page/projects/1/image3.png"]
+    },
+"2":
+    {
+        "id": 1,
+        "name": "Project 2",
+        "phrase": "This is a sample phrase for project 1.",
+        "title": "Title of Project 1",
+        "url": "https://example.com/project1",
+        "tutorial_link": "https://example.com/project1-tutorial",
+        "type": "Type1",
+        "detail": "Detailed description of project 1.",
+        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
+                   "waltermayor.github.io/single-page/projects/1/image2.png", 
+                   "waltermayor.github.io/single-page/projects/1/image3.png"]
+    },
+"3":
+    {
+        "id": 1,
+        "name": "Project 3",
+        "phrase": "This is a sample phrase for project 1.",
+        "title": "Title of Project 1",
+        "url": "https://example.com/project1",
+        "tutorial_link": "https://example.com/project1-tutorial",
+        "type": "Type1",
+        "detail": "Detailed description of project 1.",
+        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
+                   "waltermayor.github.io/single-page/projects/1/image2.png", 
+                   "waltermayor.github.io/single-page/projects/1/image3.png"]
+    }
+} 
