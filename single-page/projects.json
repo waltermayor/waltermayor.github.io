@@ -1,43 +1,41 @@
-{"1":
-    {
-        "id": 1,
-        "name": "Project 1",
-        "phrase": "This is a sample phrase for project 1.",
-        "title": "Title of Project 1",
-        "url": "https://example.com/project1",
-        "tutorial_link": "https://example.com/project1-tutorial",
-        "type": "Type1",
-        "detail": "Detailed description of project 1.",
-        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
-                   "waltermayor.github.io/single-page/projects/1/image2.png", 
-                   "waltermayor.github.io/single-page/projects/1/image3.png"]
-    },
-"2":
-    {
-        "id": 1,
-        "name": "Project 2",
-        "phrase": "This is a sample phrase for project 1.",
-        "title": "Title of Project 1",
-        "url": "https://example.com/project1",
-        "tutorial_link": "https://example.com/project1-tutorial",
-        "type": "Type1",
-        "detail": "Detailed description of project 1.",
-        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
-                   "waltermayor.github.io/single-page/projects/1/image2.png", 
-                   "waltermayor.github.io/single-page/projects/1/image3.png"]
-    },
-"3":
-    {
-        "id": 1,
-        "name": "Project 3",
-        "phrase": "This is a sample phrase for project 1.",
-        "title": "Title of Project 1",
-        "url": "https://example.com/project1",
-        "tutorial_link": "https://example.com/project1-tutorial",
-        "type": "Type1",
-        "detail": "Detailed description of project 1.",
-        "images": ["waltermayor.github.io/single-page/projects/1/image1.png",
-                   "waltermayor.github.io/single-page/projects/1/image2.png", 
-                   "waltermayor.github.io/single-page/projects/1/image3.png"]
-    }
+{ 
+    "1": {
+            "id": 1,
+            "name": "Plane Classification",
+            "phrase": "optimizing navigation paths",
+            "title": "Title of Project 1",
+            "url": "https://github.com/waltermayor/plane_classiication",
+            "tutorial_link": "",
+            "type": "3D Computer Vision",
+            "detail": "This project is an integral part of a larger initiative aimed at reconstructing 3D representations of crops. Our focus lies in utilizing point cloud data to distinguish between flat terrain and elevated areas, effectively categorizing them as plains and mountains. The primary objective is to identify suitable flat zones that vehicles can utilize for navigation across the terrain. This classification is crucial for optimizing navigation paths and ensuring safe and efficient traversal for vehicles operating within agricultural landscapes.",
+            "images": ["single-page/projects/1/image1.png",
+                    "single-page/projects/1/image2.png", 
+                    "single-page/projects/1/image3.png"]
+         },
+    "2": {
+            "id": 2,
+            "name": "Project 2",
+            "phrase": "This is a sample phrase for project 1.",
+            "title": "Traking of poor driving maneuvers",
+            "url": "https://example.com/project1",
+            "tutorial_link": "https://example.com/project1-tutorial",
+            "type": "Type1",
+            "detail": "Detailed description of project 1.",
+            "images": ["single-page/projects/2/image1.png",
+                    "single-page/projects/2/image2.png", 
+                    "single-page/projects/2/image3.png"]
+         },
+    "3": {
+            "id": 3,
+            "name": "Project 3",
+            "phrase": "This is a sample phrase for project 1.",
+            "title": "Title of Project 1",
+            "url": "https://example.com/project1",
+            "tutorial_link": "https://example.com/project1-tutorial",
+            "type": "Type1",
+            "detail": "Detailed description of project 1.",
+            "images": ["single-page/projects/3/image1.png",
+                    "single-page/projects/3/image2.png", 
+                    "single-page/projects/3/image3.png"]
+         }
 } 
