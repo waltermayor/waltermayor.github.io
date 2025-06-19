@@ -77,7 +77,7 @@
         figure {
           /*portfolio overlay*/
           position: relative;
-          float: left;
+          //float: left;
           margin: 0;
           width: 100%;
           background: transparent;
@@ -203,8 +203,24 @@
           }
         }
       }
+      
     }
   }
+  #a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    figure {
+    width: 300px;
+    margin: 0;
+    float: none !important;
+    text-align: center;
+  }
+  }
+
+
   .btn-large {
     color: $accent-color !important;
     background: $body-color !important;

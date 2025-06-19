@@ -11,10 +11,11 @@ const loadProjects = async () => {
       if (data.hasOwnProperty(key)) {
         const project = data[key];
         const projectPath = `single-page/projects/${key}/`;
+        const typeClass = project.type.toLowerCase();
         
         // Generate the HTML for each project
         const projectHTML = `
-          <div class="col-md-4 col-sm-6 col-xs-12 grid inRight">
+          <div class="col-md-4 col-sm-6 col-xs-12 grid inLeft ${typeClass}">
             <figure class="port-effect">
               <img src="${project.images[0]}" class="img-responsive" alt="portfolio-demo"/>
               <figcaption>
@@ -36,4 +37,26 @@ const loadProjects = async () => {
 };
 
 // Call the function to load all projects
-loadProjects();
+//loadProjects();
+
+// 3. Lógica de ejecución cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', () => {
+  loadProjects().then(() => {
+    const buttons = document.querySelectorAll('.filter-btn');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+        const allProjects = document.querySelectorAll('#a .grid');
+
+        allProjects.forEach(project => {
+          if (filter === 'all' || project.classList.contains(filter)) {
+            project.style.display = 'block';
+          } else {
+            project.style.display = 'none';
+          }
+        });
+      });
+    });
+  });
+});
